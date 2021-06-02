@@ -1,0 +1,43 @@
+<html>
+<head>
+    <h1> <u>FILL IN THE FORM DETAILS :</u> </h1>
+    <title>EXAMPLE-5</title>
+</head>
+
+<body>
+    <form action="Sample">
+        <label>Enter Your Name</label>
+        <input type="text" required> <br><br>
+        <label>Age</label> <input type="number" min="18" max="60"> <br><br>
+        <label>Email</label> <input type="email" required> <br><br>
+        <label>Contact No</label> <input type="tel" required> <br><br>
+
+        Education Qualification
+
+        <select>
+            <option>Intermediate</option>
+            <option>Degree</option>
+            <option>MBA</option>
+            <option>PG</option>
+        </select>
+        <br><br>
+
+        <label>Address</label> <textarea></textarea> <br><br>
+
+        <label>Password</label>
+        <input type="password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required> <br><br>
+
+        <label>File Upload</label> <input type="file" required> <br><br>
+
+        <input type="datetime-local" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01]).(0[1-9]|1[012]).[0-9]{4}"> <br><br>
+
+        <input type="checkbox">I Have Read Terms And Conditions <br><br>
+
+
+        <button type="reset">Reset</button>
+        <button type="submit">Register</button>
+
+
+    </form>
+</body>
+</html>
